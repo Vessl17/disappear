@@ -1,0 +1,25 @@
+/* styles.css */  
+body {  
+    font-family: Arial, sans-serif;  
+}  
+
+.notification {  
+    position: fixed;  
+    top: 20px;  
+    right: 20px;  
+    background-color: #f44336; /* 红色背景 */  
+    color: white; /* 白色文字 */  
+    padding: 15px;  
+    border-radius: 5px;  
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);  
+    display: flex;  
+    align-items: center;  
+    transition: opacity 0.3s ease;  
+}  
+
+.close-btn {  
+    margin-left: 15px;  
+    cursor: pointer; /* 显示为指针 */  
+    font-size: 18px;  
+    color: white; /* 关闭按钮的颜色 */  
+}
